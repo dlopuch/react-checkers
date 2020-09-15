@@ -21,6 +21,6 @@ test('App can mount', () => {
     </Provider>
   );
 
-  const linkElement = getByText(/dan lopuch checkers/i);
+  const linkElement = getByText(/checkers, by dan lopuch/i);
   expect(linkElement).toBeInTheDocument();
 });
