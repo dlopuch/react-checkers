@@ -1,0 +1,12 @@
+.player-panel {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.player-panel > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-right: 3rem;
+    text-align: right;
+}

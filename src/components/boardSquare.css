@@ -1,0 +1,29 @@
+.board-square {
+    font-size: 2rem;
+}
+
+.bs-x {
+    /*background-color: rgb(250, 248, 244);*/
+    background-color: #282c34;
+}
+.bs-x.bs-active {
+    background-color: #49515f;
+}
+.bs-x.bs-potential {
+    background-color: #514a3e;
+}
+.bs-x.bs-capture {
+    background-color: #D87150;
+}
+.bs-x.bs-drop {
+    background-color: rgb(250, 248, 244);
+}
+
+.bs-y {
+    background-color: #00A975;
+}
+
+.bs-y.bs-active {
+    background-color: #57b79a;
+}
+

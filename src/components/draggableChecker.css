@@ -1,0 +1,15 @@
+.dc {
+    width: 100%;
+    height: 100%;
+}
+
+.dc:not(.disabled) {
+    cursor: grab;
+}
+
+.dc.p1 {
+    color: var(--p1-color);
+}
+.dc.p2 {
+    color: var(--p2-color);
+}
